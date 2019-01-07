@@ -9,6 +9,8 @@ function init() {
       if (index === code.length) {
         alert("Hurray!");
       }
+    } else {
+      index = 0;
     }
     console.log(key);
   });
